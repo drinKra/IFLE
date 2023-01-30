@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/img/Favicon.png"/> 
+
+    <!-- <script type="text/javascript" src="./assets/app.js"></script> -->
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/mediaQuery.css">
+    <link rel="stylesheet" href="navBar.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <!-- <link rel="stylesheet" href="styleTextAnimation.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+    <div id="loader"></div>
+        <div id="content1">
+            <!-- Everything in your body should go under here-->
+            <!-- <h1>WELCOME TO MY WEBSITE</h1> -->
+            <!-- End of body-->
+        </div>
+
+        <style>
+            #loader {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                z-index: 1;
+                overflow: visible;
+                background: #fff url('./assets/img/loader.gif') no-repeat center center;
+                transition: all 1s;
+            }
+        </style>
+
+
+    <script>
+
+    </script>
+
+    
+
+    <!-- <img class="logo" src="./assets/img/Logo.png" alt="Institute of Foreign Language Education"> -->
+
+
+    <div class="top-header">
+        <div class="et-info">
+            <span><i class="fa fa-phone"></i> <i class="fa fa-whatsapp"> </i>  +383 ******</span>
+            <!-- <div class="space"></div> -->
+            <a href="mailto:valdrin.krasniqi@live.com"><i class="fa fa-envelope"></i> IFLE EMAIL@live.com</a>
+            
+        </div>
+
+
+        <div class="et-secondary-nav">
+            
+        </div>
+
+        <div class="languages">
+            <a href="#"><img src="./assets/img/1.SHQ.png" alt="Shqip" asp-append-version="true" ></a>
+            <a href="#"><img src="./assets/img/2.DE.png" alt="Gjermanisht" asp-append-version="true"></a>
+        </div>
+
+       
+
+    </div>
+
+    <!-- image slider start -->
+    <div class="slider" id="Slider11">
+        <div class="slides">
+            <!-- radio buttons start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons end -->
+            <!-- slide images start-->
+            <div class="slide first"> <!--Photo 1-->
+                <img src="./assets/img/home-1-1.jpg" alt="1">
+            </div>
+
+            <div class="slide"> <!--Photo 2-->
+                <img src="./assets/img/home-2-1.jpg" alt="2">
+            </div>
+
+            <div class="slide"> <!--Photo 3-->
+                <img src="./assets/img/home-1-1.jpg" alt="3">
+            </div>
+
+            <div class="slide"> <!--Photo 4-->
+                <img src="./assets/img/home-2-1.jpg" alt="4">
+            </div>
+            <!-- slide images end-->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto" id="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation end -->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual" id="navigation-manual" name="navigation-manual">
+            <label for="radio1" class="manual-btn but1"></label>
+            <label for="radio2" class="manual-btn but2"></label>
+            <label for="radio3" class="manual-btn but3"></label>
+            <label for="radio4" class="manual-btn but4"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <!-- image slider end -->
+
+    <!-- Text Animation Start -->
+    <section class="home">
+        <div class="container">
+            <div class="row">
+                <div class="home-text">
+                        <!-- <h1>How can I protect myself from Covid-19?</h1> -->
+                        <p class="animate-text">
+                        <span>Learn Languages and<br>connect with the world</span>
+                        <span>Become a global citizen<br>with multi-language</span>
+                        <!-- <span>Wash Your Hand Frequently</span>
+                        <span>Stay At Home</span>
+                        <span>Avoid Close Contact</span> -->
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Text Animation End -->
+
+    <div class="navigation2" id="navigation2">
+        <a href="#contact">CONTACT NOW</a>
+        <a href="#about">LEARN MORE</a>
+    </div>
+
+    <div class="navigation1" id="navbar"> <!--  -->
+        
+        <img src="./assets/img/Logo.png" alt="Logo">
+
+        
+
+        
+    
+        <div class="dropdown">
+            <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="material-icons">&#xe5d2;</i>
+            </button>
+            <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#courses">Courses</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+                <!-- <li><a class="dropdown-item" href="#">Test link</a></li> -->
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="content">
+        <h1 class="bg-warning" id="about">About us</h1>
+        <div class="about bg-light" id="about"> 
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+        </div>
+        <br><br>
+        <h1 class="bg-warning" id="courses">Courses</h1>
+            <div class="courses bg-light" id="courses">
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum et fugiat natus modi optio, officia architecto beatae omnis exercitationem rem impedit fugit. Ab vero voluptatem dolore reprehenderit aperiam id vitae?</div>
+            </div>
+    </div>
+
+<br><br>
+    
+ <h1 class="bg-warning contactUs" id="contact">Contact us</h1>
+<div class="contact">
+    <form class="was-validated">
+        <br>
+        <!-- <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Ju lutem shenoni te dhenat me poshte...</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+          <div class="invalid-feedback">
+            .
+          </div>
+        </div>
+       -->
+
+
+
+
+       <div class="form-group row">
+        <!-- <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label> -->
+        <div class="col-sm-10">
+          <input type="name" class="form-control" id="colFormLabel" placeholder="Ju lutem shenoni emrin tuaj" required>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group row">
+        <!-- <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label> -->
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="colFormLabel" placeholder="Ju lutem shkruani email adresen tuaj"  required>
+        </div>
+    </div>
+    <br>
+
+
+
+        <!-- <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck1" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck1">Gjermanisht</label>
+          <div class="invalid-feedback">Jeni të interesuar për gjuhën gjermane?</div>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="radio" class="form-check-input" id="validationFormCheck1" name="radio-stacked" required>
+            <label class="form-check-label" for="validationFormCheck1">Anglisht</label>
+            <div class="invalid-feedback">Jeni të interesuar për gjuhën angleze?</div>
+        </div> -->
+
+
+
+       
+        <div class="form-check mb-3">
+          <input  type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">Gjermanisht</label>
+          <div class="invalid-feedback">Jeni të interesuar për gjuhën gjermane?</div>
+        </div>
+      
+        <br>
+
+        <div class="form-check mb-3">
+          <input  type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">Anglisht</label>
+          <div class="invalid-feedback">Jeni të interesuar për gjuhën angleze?</div>
+        </div>
+      
+        
+
+
+
+
+  
+
+        <!-- <div class="form-check">
+          <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+        </div> -->
+        <div>Niveli i kursit, qe jeni te interesuar:</div>
+
+
+        <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck3">A1</label>
+          <div class="invalid-feedback">Mesoni komunikimi bazik</div>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+            <label class="form-check-label" for="validationFormCheck3">A2</label>
+            <div class="invalid-feedback">Avansohuni me tutje</div>
+        </div>
+
+
+        <div class="form-check mb-3">
+            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+            <label class="form-check-label" for="validationFormCheck3">B1</label>
+            <div class="invalid-feedback">Avansohuni me tutje</div>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+            <label class="form-check-label" for="validationFormCheck3">B2</label>
+            <div class="invalid-feedback">Avansohuni me tutje</div>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+            <label class="form-check-label" for="validationFormCheck3">C1</label>
+            <div class="invalid-feedback">Perfeksiononi njohurite tuaja</div>
+        </div>
+
+
+
+
+
+
+      
+        <div class="col-sm-10">
+          <select class="form-select" required aria-label="select example" placeholder="Aplikoni si nxënës apo mësues?">
+            <option value="" >Interesimi juaj për...?</option>
+            <option value="1">Nxënës</option>
+            <option value="2">Mësues</option>
+          </select>
+
+          <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+<!--       
+        <div class="mb-3">
+          <input type="file" class="form-control" aria-label="file example" required>
+          <div class="invalid-feedback">Example invalid form file feedback</div>
+        </div> -->
+      
+        <div class="mb-3">
+          <button class="btn btn-primary" type="submit" >Dergoni kontaktin tuaj</button> <!-- disabled -->
+        </div>
+    </form>
+
+        <br>
+        <h4>Ketu mund te na gjeni, ne kete lokacion...</h4>
+        <div class="address" id="address">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d733.6763620165938!2d21.152703488149733!3d42.646403998691646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDM4JzQ3LjEiTiAyMcKwMDknMTEuNyJF!5e0!3m2!1sen!2s!4v1674936574039!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+<br><br>
+    <footer>
+        
+        <div class="socialMedia">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div>&copy; 2022 IFLE</div>
+        <!-- instagram, facebook -->
+    </footer>
+
+<script src="./assets/app.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
